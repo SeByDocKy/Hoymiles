@@ -47,6 +47,8 @@ private:
 
     uint32_t _pollInterval = 0;
     uint32_t _lastPoll = 0;
+
+    Print* _messageOutput = &Serial;
 };
 
 extern HoymilesClass Hoymiles;
