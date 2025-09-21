@@ -270,3 +270,14 @@ void HoymilesClass::setPollInterval(const uint32_t interval)
 {
     _pollInterval = interval;
 }
+
+////////////////////////////////////////////////////////////// 
+void HoymilesClass::setMessageOutput(Print* output)
+{
+    _messageOutput = output;
+}
+
+Print* HoymilesClass::getMessageOutput()
+{
+    return _messageOutput;
+}
